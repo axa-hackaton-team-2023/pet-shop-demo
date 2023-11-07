@@ -1,62 +1,59 @@
+<!doctype html>
 <html>
 
 <head>
-    <link rel="stylesheet" type="text/css" media="all" href="css/style.css">
+
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + React</title>
+
+
+
 </head>
 
 <body>
-    <table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0">
-        <tr style="background-color: rgb(235, 225, 0);">
-            <td colspan="2">
-                <div style="padding: 3px 5px 5px 30px;"><img src="css/head1.png" height="50%"></div>
-            </td>
-            <td>
-                <div style="padding: 3px 20px 5px 5px; text-align: right;"><img src="css/head2.png" height="50%"></div>
-            </td>
-        </tr>
-        <tr style="background-color: rgb(254, 242, 0);">
-            <td>
-                <div style="padding: 10px 5px 15px 30px;"><img src="css/logo.svg" height="86"></div>
-            </td>
-            <td>
-                <div style="padding: 10px 5px 15px 5px; text-align: center;"><img src="css/search.png" height="50%">
-                </div>
-            </td>
-            <td>
-                <div style="padding: 10px 20px 15px 5px; text-align: right;"><img src="css/logo2.png" height="50%">
-                </div>
-            </td>
-        </tr>
-        <tr>
-            <td colspan="3" height="100%">
-                <div style="text-align: center;"></div>
-            </td>
-        </tr>
-        <tr>
-            <td colspan="3" style="margin: 0; padding: 0; text-align: center;">
-                <img style="text-align: center; margin: 0; padding: 0;" src="css/animal1.png" height="50%">
-            </td>
-        </tr>
-        <tr style="background-color: rgb(0, 158, 224);">
-            <td colspan="3" style="margin: 0; padding: 0; text-align: center;">
-                <img style="text-align: center; margin: 0; padding: 0;" src="css/animal2.png" height="50%">
-            </td>
-        </tr>
-        <tr>
-            <td colspan="3">
-                <div style="height: 30px;"></div>
-            </td>
-        </tr>
-        <tr style="background-color: rgba(254, 242, 0, 0.15); border-top: 10px solid red;">
-            <td colspan="2" style="border-top: 1px solid #ccc;">
-                <div style="padding: 10px 5px 10px 30px;"><img src="css/footer1.png" height="40%"></div>
-            </td>
-            <td style="border-top: 1px solid #ccc;">
-                <div style="padding: 10px 30px 10px 5px; text-align: right;"><img src="css/footer2.png" height="40%">
-                </div>
-            </td>
-        </tr>
-    </table>
+    <div id="head">
+        <div
+            style="position: absolute; top: 0; left: 0; background-color: rgb(235, 225, 0); width: 100%; height: 40px;">
+            <img style="position: absolute; top: 5px; left: 30px;" src="/src/assets/head1.png" height="30">
+            <img style="position: absolute; top: 5px; right: 30px;" src="/src/assets/head2.png" height="30">
+        </div>
+        <div
+            style="position: absolute; top: 40px; left: 0; background-color: rgb(254, 242, 0);  width:100% ; height: 120px;">
+            <img style="position: absolute; top: 15px; left: 30px;" src="/src/assets/logo.svg" height="86">
+            <img style="position: absolute; top: 35px; left: 420px;" src="/src/assets/search.png" height="57">
+            <img style="position: absolute; top: 35px; right: 30px;" src="/src/assets/logo2.png" height="57">
+        </div>
+
+
+    </div>
+    <div id="content" style="padding: 200px 0 180px 0 !important;">
+        <center>
+            <div id="root">roooooooooot</div>
+        </center>
+    </div>
+
+
+    <div id="foot">
+
+        <div style="position: absolute; bottom: 160px; left:0; width: 100%; height: 80px; ">
+            <center><img src="/src/assets/animal1.png" height="80"></center>
+        </div>
+        <div
+            style="position: absolute; bottom: 78px; left: 0; background-color: rgb(0, 158, 224);  width:100% ; height: 83px;">
+            <center><img src="/src/assets/animal2.png" height="83"></center>
+        </div>
+
+        <div
+            style="position: absolute; bottom: 0; left: 0; background-color:  rgba(254, 242, 0, 0.15); border-top: 1px solid #ccc; width: 100%; height: 40px;">
+            <img style="position: absolute; bottom: 5px; left: 30px;" src="/src/assets/footer1.png" height="30">
+            <img style="position: absolute; bottom: 5px; right: 30px;" src="/src/assets/footer2.png" height="30">
+        </div>
+
+    </div>
+
+
 </body>
 
 </html>
