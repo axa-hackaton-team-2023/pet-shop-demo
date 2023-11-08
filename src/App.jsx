@@ -17,12 +17,12 @@ function App() {
         >
           <img
             style={{ position: "absolute", top: "5px", left: "30px" }}
-            src="/src/assets/head1.png"
+            src="/assets/head1.png"
             height="30px"
           />
           <img
             style={{ position: "absolute", top: "5px", right: "30px" }}
-            src="/src/assets/head2.png"
+            src="/assets/head2.png"
             height="30px"
           />
         </div>
@@ -38,17 +38,17 @@ function App() {
         >
           <img
             style={{ position: "absolute", top: "15px", left: "30px" }}
-            src="/src/assets/logo.svg"
+            src="/assets/logo.svg"
             height="86px"
           />
           <img
             style={{ position: "absolute", top: "35px", left: "420px" }}
-            src="/src/assets/search.png"
+            src="/assets/search.png"
             height="57px"
           />
           <img
             style={{ position: "absolute", top: "35px", right: "30px" }}
-            src="/src/assets/logo2.png"
+            src="/assets/logo2.png"
             height="57px"
           />
         </div>
@@ -71,7 +71,7 @@ function App() {
           }}
         >
           <center>
-            <img src="/src/assets/animal1.png" height="80px" />
+            <img src="/assets/animal1.png" height="80px" />
           </center>
         </div>
         <div
@@ -85,7 +85,7 @@ function App() {
           }}
         >
           <center>
-            <img src="/src/assets/animal2.png" height="83px" />
+            <img src="/assets/animal2.png" height="83px" />
           </center>
         </div>
 
@@ -102,12 +102,12 @@ function App() {
         >
           <img
             style={{ position: "absolute", bottom: "5px", left: "30px" }}
-            src="/src/assets/footer1.png"
+            src="/assets/footer1.png"
             height="30px"
           />
           <img
             style={{ position: "absolute", bottom: "5px", right: "30px" }}
-            src="/src/assets/footer2.png"
+            src="/assets/footer2.png"
             height="30px"
           />
         </div>
