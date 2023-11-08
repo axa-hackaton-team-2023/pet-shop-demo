@@ -1,35 +1,119 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import "./App.css";
+import Widget from "remoteApp/Widget";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+      <div id="head">
+        <div
+          style={{
+            position: "absolute",
+            top: 0,
+            left: 0,
+            backgroundColor: "rgb(235, 225, 0)",
+            width: "100vw",
+            height: "40px",
+          }}
+        >
+          <img
+            style={{ position: "absolute", top: "5px", left: "30px" }}
+            src="/src/assets/head1.png"
+            height="30px"
+          />
+          <img
+            style={{ position: "absolute", top: "5px", right: "30px" }}
+            src="/src/assets/head2.png"
+            height="30px"
+          />
+        </div>
+        <div
+          style={{
+            position: "absolute",
+            top: "40px",
+            left: 0,
+            backgroundColor: "rgb(254, 242, 0)",
+            width: "100vw",
+            height: "120px",
+          }}
+        >
+          <img
+            style={{ position: "absolute", top: "15px", left: "30px" }}
+            src="/src/assets/logo.svg"
+            height="86px"
+          />
+          <img
+            style={{ position: "absolute", top: "35px", left: "420px" }}
+            src="/src/assets/search.png"
+            height="57px"
+          />
+          <img
+            style={{ position: "absolute", top: "35px", right: "30px" }}
+            src="/src/assets/logo2.png"
+            height="57px"
+          />
+        </div>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
+
+      <div id="content" style={{ padding: "200px 0 180px 0 !important" }}>
+        <center>
+          <Widget propositionId={4}/>
+        </center>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+
+      <div id="foot">
+        <div
+          style={{
+            position: "absolute",
+            bottom: "160px",
+            left: 0,
+            width: "100vw",
+            height: "80px",
+          }}
+        >
+          <center>
+            <img src="/src/assets/animal1.png" height="80px" />
+          </center>
+        </div>
+        <div
+          style={{
+            position: "absolute",
+            bottom: "78px",
+            left: 0,
+            backgroundColor: "rgb(0, 158, 224)",
+            width: "100vw",
+            height: "83px",
+          }}
+        >
+          <center>
+            <img src="/src/assets/animal2.png" height="83px" />
+          </center>
+        </div>
+
+        <div
+          style={{
+            position: "absolute",
+            bottom: 0,
+            left: 0,
+            backgroundColor: "rgba(254, 242, 0, 0.15)",
+            borderTop: "1px solid #ccc",
+            width: "100vw",
+            height: "40px",
+          }}
+        >
+          <img
+            style={{ position: "absolute", bottom: "5px", left: "30px" }}
+            src="/src/assets/footer1.png"
+            height="30px"
+          />
+          <img
+            style={{ position: "absolute", bottom: "5px", right: "30px" }}
+            src="/src/assets/footer2.png"
+            height="30px"
+          />
+        </div>
+      </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
