@@ -17,12 +17,12 @@ function App() {
         >
           <img
             style={{ position: "absolute", top: "5px", left: "30px" }}
-            src="/assets/head1.png"
+            src="/pet-shop-demo/assets/head1.png"
             height="30px"
           />
           <img
             style={{ position: "absolute", top: "5px", right: "30px" }}
-            src="/assets/head2.png"
+            src="/pet-shop-demo/assets/head2.png"
             height="30px"
           />
         </div>
@@ -38,17 +38,17 @@ function App() {
         >
           <img
             style={{ position: "absolute", top: "15px", left: "30px" }}
-            src="/assets/logo.svg"
+            src="/pet-shop-demo/assets/logo.svg"
             height="86px"
           />
           <img
             style={{ position: "absolute", top: "35px", left: "420px" }}
-            src="/assets/search.png"
+            src="/pet-shop-demo/assets/search.png"
             height="57px"
           />
           <img
             style={{ position: "absolute", top: "35px", right: "30px" }}
-            src="/assets/logo2.png"
+            src="/pet-shop-demo/assets/logo2.png"
             height="57px"
           />
         </div>
@@ -71,7 +71,7 @@ function App() {
           }}
         >
           <center>
-            <img src="/assets/animal1.png" height="80px" />
+            <img src="/pet-shop-demo/assets/animal1.png" height="80px" />
           </center>
         </div>
         <div
@@ -85,7 +85,7 @@ function App() {
           }}
         >
           <center>
-            <img src="/assets/animal2.png" height="83px" />
+            <img src="/pet-shop-demo/assets/animal2.png" height="83px" />
           </center>
         </div>
 
@@ -102,12 +102,12 @@ function App() {
         >
           <img
             style={{ position: "absolute", bottom: "5px", left: "30px" }}
-            src="/assets/footer1.png"
+            src="/pet-shop-demo/assets/footer1.png"
             height="30px"
           />
           <img
             style={{ position: "absolute", bottom: "5px", right: "30px" }}
-            src="/assets/footer2.png"
+            src="/pet-shop-demo/assets/footer2.png"
             height="30px"
           />
         </div>
