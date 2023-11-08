@@ -1,0 +1,65 @@
+.page{
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+}
+
+.headerContent{
+    display: flex;
+    flex-direction: row;
+    background: #fef200;
+    padding: 15px 60px;
+}
+
+.logo{
+
+}
+
+.navbar{
+    background: #EFE64C;
+    height: 42px;
+}
+
+.pageContent{
+    display: flex;
+    flex-direction: row;
+    padding: 0 64px;
+    margin: 0 auto;
+    gap: 32px;
+}
+
+.placeholderContainer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 32px;
+    gap: 16px;
+    position: relative;
+}
+
+.pagePlaceholder{
+    min-height: 32px;
+    background: #E5E5E5;
+    width: 100%;
+    border-radius: 8px;
+}
+.widgetContainer{
+    margin-left: auto;
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.15);
+
+    flex: 1;
+
+    &>*{
+
+    }
+}
+
