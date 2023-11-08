@@ -1,4 +1,7 @@
-
+:root{
+  --ui-theme-card-background: #FBED4F;
+  --ui-theme-card-color: #000000;
+}
 
 button{
   background: #55A4DD!important;

@@ -58,6 +58,11 @@ function App() {
                     }}/>
                 </div>
 
+
+                <div className={classes.pagePlaceholder} style={{
+                    height: 460,
+                    backgroundColor: 'rgba(255,245,120,0.29)'
+                }}/>
             </div>
             <div className={classes.widgetContainer}>
                 <Widget propositionId={52}/>
